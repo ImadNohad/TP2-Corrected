@@ -19,7 +19,7 @@ body {
 .wrapper {
   display: flex;
   background: hsl(244, 38%, 16%);
-  width: 1069px;
+  width: 1011px;
   border-radius: 10px;
   justify-content: space-between;
 }
@@ -41,7 +41,7 @@ body {
 
 .heading {
   color: hsl(0, 0%, 100%);
-  font-size: 2.4rem;
+  font-size: 2.15rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   letter-spacing: 1px;
@@ -52,21 +52,19 @@ body {
 }
 
 .text {
-  width: 90%;
+  width: 87%;
 }
 
 .main-text {
   color: hsla(0, 0%, 100%, 0.6);
   font-family: Lexend Deca;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 200;
   line-height: 1.8em;
-  width: 100%;
   margin-bottom: 3.8rem;
 }
 
 .stats {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
@@ -75,14 +73,14 @@ body {
 }
 
 .stats div {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.2em;
 }
 
 .stats span {
   color: hsla(0, 0%, 100%, 0.6);
   font-weight: 100;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   letter-spacing: 1px;
   display: block;
 }

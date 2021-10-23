@@ -30,7 +30,7 @@ body {
 }
 
 .right {
-  background-image: linear-gradient(hsla(279, 100%, 30%, 0.5),hsla(279, 100%, 30%, 0.5)), url("/images/image-header-desktop.jpg");
+  background-image: linear-gradient(hsla(279, 100%, 30%, 0.5),hsla(279, 100%, 30%, 0.5)), url("images/image-header-desktop.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 0 10px 10px 0;

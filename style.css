@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend Deca:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: hsla(0, 0%, 100%, 0.75);
+  background: hsl(233, 47%, 7%);
+  font-family: Inter;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  background: hsl(244, 38%, 16%);
+  width: 940px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.left {
+  padding: 3.5rem 3.5rem 2.6rem;
+  width: 52%;
+}
+
+.right {
+  background-image: linear-gradient(hsla(279, 100%, 30%, 0.5),hsla(279, 100%, 30%, 0.5)), url("/images/image-header-desktop.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0 10px 10px 0;
+  width: 48%;
+}
+
+.heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.violet {
+  color: hsl(277, 64%, 61%);
+}
+
+.text {
+  width: 84%;
+}
+
+.main-text {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: Lexend Deca;
+  font-size: 0.8125rem;
+  font-weight: 200;
+  line-height: 1.8em;
+  width: 100%;
+  margin-bottom: 3.8rem;
+}
+
+.stats {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.stats div {
+  font-size: 1.25rem;
+  line-height: 1.2em;
+}
+
+.stats span {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 100;
+  font-size: 0.625rem;
+  letter-spacing: 1px;
+  display: block;
+}
